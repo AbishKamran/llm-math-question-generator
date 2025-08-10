@@ -1,0 +1,102 @@
+@title Enhanced Mathematical Reasoning Assessment
+@description Assessment of mathematical problem-solving skills
+
+@question Each student choosing from the school cafeteria menu selects 1 sandwich and 1 drink. The table shows the options available. How many different lunch combinations are possible?
+
+| Sandwich | Drink |
+|:---:|:---:|
+| Turkey | Water |
+| Ham | Juice |
+| Veggie | Milk |
+| Chicken |  |
+
+@instruction Choose the best answer from the options below.
+@difficulty hard
+@Order 1
+@option 4
+@option 7
+@option 9
+@@option 12
+@option 17
+@explanation
+Using the multiplication principle: 4 sandwich options × 3 drink options = 12 total combinations.
+
+**Real-world application:** This applies to menu planning in restaurants and cafeterias.
+
+**Formula:** For independent choices, total combinations = n₁ × n₂
+@subject Quantitative Math
+@unit Data Analysis & Probability
+@topic Counting & Arrangement Problems
+@plusmarks 1
+
+@formula $C(n,r) = \frac{n!}{r!(n-r)!}$
+@question A rectangular container holds 6 cubes in a 2×3×1 arrangement of cubic boxes. If each cube has a radius of 2 centimeters, what are the closest dimensions, in centimeters, of the rectangular container?
+@instruction Choose the best answer from the options below.
+@difficulty moderate
+@Order 2
+@@option 8 × 12 × 4
+@option 4 × 12 × 4
+@option 10 × 14 × 6
+@option 7 × 11 × 4
+@option 8 × 6 × 4
+@explanation
+Each cube has diameter 4 cm. The arrangement requires 8 × 12 × 4 cm dimensions.
+
+**Real-world application:** Essential for logistics and 3D printing space optimization.
+
+**Volume calculation:** V = s³
+@subject Quantitative Math
+@unit Geometry and Measurement
+@topic Solid Figures (Volume of Cubes)
+@plusmarks 1
+
+@question Each student choosing from the school cafeteria menu selects 1 sandwich and 1 drink. The table shows the options available. How many different lunch combinations are possible?
+
+| Sandwich | Drink |
+|:---:|:---:|
+| Turkey | Water |
+| Ham | Juice |
+| Veggie | Milk |
+| Chicken |  |
+
+@instruction Choose the best answer from the options below.
+@difficulty hard
+@Order 3
+@option 3
+@option 10
+@@option 12
+@option 9
+@option 7
+@explanation
+Using the multiplication principle: 4 sandwich options × 3 drink options = 12 total combinations.
+
+**Real-world application:** This applies to menu planning in restaurants and cafeterias.
+
+**Formula:** For independent choices, total combinations = n₁ × n₂
+@subject Quantitative Math
+@unit Data Analysis & Probability
+@topic Counting & Arrangement Problems
+@plusmarks 1
+
+@formula $C(n,r) = \frac{n!}{r!(n-r)!}$
+@question A rectangular container holds 4 cylinders in a 2×2 grid of cylindrical cans. If each cylinder has a radius of 3 centimeters, what are the closest dimensions, in centimeters, of the rectangular container?
+@instruction Choose the best answer from the options below.
+@difficulty moderate
+@Order 4
+@option 12 × 6 × 6
+@@option 12 × 12 × 6
+@option 14 × 14 × 8
+@option 11 × 11 × 6
+@option 6 × 12 × 6
+@explanation
+Each cylinder has diameter 6 cm. The arrangement requires 12 × 12 × 6 cm dimensions.
+
+**Real-world application:** Used in warehouse storage optimization and shipping container design.
+
+**Volume calculation:** V = \pi r^2 h
+@subject Quantitative Math
+@unit Geometry and Measurement
+@topic Solid Figures (Volume of Cubes)
+@plusmarks 1
+
+@formula $V = \pi r^2 h$

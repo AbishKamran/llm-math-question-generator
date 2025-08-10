@@ -1,0 +1,175 @@
+{
+  "analytics": {
+    "summary": {
+      "total_questions": 4,
+      "avg_readability": 51.058693181818214,
+      "avg_engagement": 0.7625,
+      "difficulty_distribution": {
+        "moderate": 2,
+        "hard": 2
+      },
+      "quality_score": 0.5817678171503544
+    },
+    "individual_analyses": [
+      {
+        "readability_score": 58.98375000000004,
+        "option_balance": {
+          "balanced": false,
+          "score": 0.3,
+          "cv": 0.5071336179505787
+        },
+        "difficulty_alignment": {
+          "aligned": false,
+          "predicted": "easy",
+          "stated": "hard",
+          "confidence": 0.5
+        },
+        "engagement_score": 0.95,
+        "timestamp": "2025-08-10T21:29:06.599331"
+      },
+      {
+        "readability_score": 44.415454545454566,
+        "option_balance": {
+          "balanced": true,
+          "score": 0.40388998011302935,
+          "cv": 0.20194499005651467
+        },
+        "difficulty_alignment": {
+          "aligned": true,
+          "predicted": "moderate",
+          "stated": "moderate",
+          "confidence": 0.5
+        },
+        "engagement_score": 0.5,
+        "timestamp": "2025-08-10T21:29:06.600330"
+      },
+      {
+        "readability_score": 58.98375000000004,
+        "option_balance": {
+          "balanced": true,
+          "score": 0.8342747012920523,
+          "cv": 0.41713735064602614
+        },
+        "difficulty_alignment": {
+          "aligned": false,
+          "predicted": "easy",
+          "stated": "hard",
+          "confidence": 0.5
+        },
+        "engagement_score": 0.95,
+        "timestamp": "2025-08-10T21:29:06.600330"
+      },
+      {
+        "readability_score": 41.8518181818182,
+        "option_balance": {
+          "balanced": true,
+          "score": 0.35070139712644316,
+          "cv": 0.17535069856322158
+        },
+        "difficulty_alignment": {
+          "aligned": true,
+          "predicted": "moderate",
+          "stated": "moderate",
+          "confidence": 0.25
+        },
+        "engagement_score": 0.65,
+        "timestamp": "2025-08-10T21:29:06.600330"
+      }
+    ],
+    "recommendations": [
+      "Consider simplifying question language for better readability"
+    ],
+    "generated_at": "2025-08-10T21:29:06.600330"
+  },
+  "similarity_report": {
+    "individual_comparisons": [
+      {
+        "cosine_similarity": 0.04662524041201569,
+        "jaccard_similarity": 0.030303030303030304,
+        "structural_similarity": 0.2,
+        "overall_similarity": 0.07077130828601841,
+        "similarity_level": "Low",
+        "plagiarism_risk": "Minimal risk",
+        "recommendation": "Questions are sufficiently different.",
+        "question_pair": [
+          1,
+          2
+        ]
+      },
+      {
+        "cosine_similarity": 0.9999999999999998,
+        "jaccard_similarity": 1.0,
+        "structural_similarity": 1.0,
+        "overall_similarity": 1.0,
+        "similarity_level": "Very High",
+        "plagiarism_risk": "High plagiarism risk",
+        "recommendation": "Questions are too similar. Consider generating new variations.",
+        "question_pair": [
+          1,
+          3
+        ]
+      },
+      {
+        "cosine_similarity": 0.04662524041201569,
+        "jaccard_similarity": 0.030303030303030304,
+        "structural_similarity": 0.2,
+        "overall_similarity": 0.07077130828601841,
+        "similarity_level": "Low",
+        "plagiarism_risk": "Minimal risk",
+        "recommendation": "Questions are sufficiently different.",
+        "question_pair": [
+          1,
+          4
+        ]
+      },
+      {
+        "cosine_similarity": 0.04662524041201569,
+        "jaccard_similarity": 0.030303030303030304,
+        "structural_similarity": 0.2,
+        "overall_similarity": 0.07077130828601841,
+        "similarity_level": "Low",
+        "plagiarism_risk": "Minimal risk",
+        "recommendation": "Questions are sufficiently different.",
+        "question_pair": [
+          2,
+          3
+        ]
+      },
+      {
+        "cosine_similarity": 0.7826086956521741,
+        "jaccard_similarity": 0.47368421052631576,
+        "structural_similarity": 0.8,
+        "overall_similarity": 0.662517162471396,
+        "similarity_level": "High",
+        "plagiarism_risk": "Moderate plagiarism risk",
+        "recommendation": "Questions have high similarity. Review and modify if needed.",
+        "question_pair": [
+          2,
+          4
+        ]
+      },
+      {
+        "cosine_similarity": 0.04662524041201569,
+        "jaccard_similarity": 0.030303030303030304,
+        "structural_similarity": 0.2,
+        "overall_similarity": 0.07077130828601841,
+        "similarity_level": "Low",
+        "plagiarism_risk": "Minimal risk",
+        "recommendation": "Questions are sufficiently different.",
+        "question_pair": [
+          3,
+          4
+        ]
+      }
+    ],
+    "summary": {
+      "average_similarity": 0.3242670659359116,
+      "maximum_similarity": 1.0,
+      "high_risk_pairs": 2,
+      "total_comparisons": 6
+    },
+    "recommendations": [
+      "Found 2 question pairs with high similarity. Consider diversifying question types."
+    ]
+  }
+}
